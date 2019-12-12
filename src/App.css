@@ -1,18 +1,40 @@
 .time{
- margin: 20px 0 0 50px;
- 
-  display: inline-block;
+ /* margin: 50px; */
+  /* display: inline-block; */
+   /* text-align: center;  */
 }
 .timeD{
   font-size: 4em;
+ 
 }
 .timeI{
   display: flex;
   justify-content: space-around;
   color: gray;
+ 
+width:250px ;
+margin:0;
 }
-
-
+.btnS{
+  background-color: white;
+  color: #00ccb1;
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+  border:solid 2px #00ccb1 ;
+  border-radius: 10px;
+  font-size: 15px;
+  
+}
+.btnR{ background-color: white;
+  color: black;
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+  border:solid 2px black ;
+  border-radius: 10px;
+  font-size: 15px;
+margin-left: 10px;}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

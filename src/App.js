@@ -30,7 +30,7 @@ const   Time= (props) =>{
 function App() {
   return (
     <div className="App">
-      <Time seconds={0}/>
+      <Time seconds={}/>
     </div>
   );
 }
